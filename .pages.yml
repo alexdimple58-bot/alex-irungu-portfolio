@@ -1,0 +1,24 @@
+
+media:
+  input: images
+  output: images
+
+content:
+  - name: projects
+    label: Engineering Projects
+    type: file
+    path: content/projects
+    filename: "{primary}.json"
+    fields:
+      - name: title
+        label: Project Title
+        type: string
+      - name: description
+        label: Project Description
+        type: text
+      - name: image
+        label: Project Image Path
+        type: string
+      - name: video
+        label: Project Video Link
+        type: string
